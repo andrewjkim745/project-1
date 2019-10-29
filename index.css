@@ -1,0 +1,139 @@
+.content {
+
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    background-color:#e7d7c1;
+}
+
+.logo {
+    height: 10%;
+
+}
+.navbar{
+    display:flex;
+    width: 100%;
+}
+.wooden-background{
+    background: url("https://i.imgur.com/NSA3MFr.jpg");
+    display:flex;
+    justify-content: space-between;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    font-size: 19px;
+    font-family: 'Tinos', serif;
+}
+
+
+.Bell {
+    height: 25%;
+}
+
+.Magnifier{
+    height: 25%;
+    width: auto;
+}
+.Facebook {
+    height: 25%;
+}
+
+.Instagram {
+    height: 25%;
+}
+
+.chicken {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+
+}
+
+.bowlchicken {
+    width: 15%;
+    
+
+}
+.caption1 {
+    display: block;
+}
+.rolls {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    
+}
+
+.brolls {
+    width: 20%;
+    height: 70%;
+}
+.caption2 {
+    display:block;
+}
+.noodles {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+.jnoodles {
+    width: 20%;
+}
+.caption3 {
+    display:block;
+}
+
+.bbq {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+}
+.kbbq {
+    width: 25%;
+}
+.caption4 {
+    display: block;
+}
+
+.beverages {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+
+.soju {
+    width: 45%;
+    
+}
+
+.caption5 {
+    display: block;
+}
+
+.dessert {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+
+.fishbread {
+    width: 50%;
+}
+
+.caption6 {
+    display:block;
+}
+
+
