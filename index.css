@@ -137,3 +137,14 @@ nav {
 }
 
 
+.Nutrition {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caption7 {
+    font-size: 20px;
+
+}
+
+
