@@ -8,13 +8,40 @@
     background-color:#e7d7c1;
 }
 
+a {
+    color: #735751
+}
+.Menu {
+    font-size: 30px;
+}
+.Menu:hover {
+    color: #8c1c13
+}
+.Locator {
+    font-size: 30px;
+}
+.Menu:hover {
+    color:  
+}
+
+.Delivery {
+    font-size: 30px;
+}
+
+.Offers {
+    font-size: 30px;
+}
+.NewOptions {
+    font-size: 30px;
+}
+
 .logo {
-    height: 10%;
+    width: 6%;
 
 }
 .navbar{
     display:flex;
-    width: 100%;
+    width: auto;
 }
 .wooden-background{
     background: url("https://i.imgur.com/NSA3MFr.jpg");
@@ -27,42 +54,52 @@ nav {
     align-items: center;
     justify-content:space-around;
     width: 100%;
-    font-size: 19px;
     font-family: 'Tinos', serif;
 }
 
-
 .Bell {
-    height: 25%;
+    width: 4%;
+}
+.Bell:hover {
+    width: 5%;
 }
 
 .Magnifier{
-    height: 25%;
-    width: auto;
+    width: 4%;
 }
 .Facebook {
-    height: 25%;
+    width: 4%;
 }
 
 .Instagram {
-    height: 25%;
+    width: 4%;
 }
+.Alerts {
+    font-size: 30px;
+}
+
+
 
 .chicken {
     vertical-align: top;
     display: inline-block;
     text-align: center;
     width: auto;
+    
+    
 
 }
 
 .bowlchicken {
-    width: 15%;
+    width: 23%;
+    margin-left: 20px;
+    padding-top: 5px;
     
 
 }
 .caption1 {
     display: block;
+    margin-left: 20px;
 }
 .rolls {
     vertical-align: top;
@@ -73,23 +110,30 @@ nav {
 }
 
 .brolls {
-    width: 20%;
-    height: 70%;
+    width: 33%;
+    padding-top: 4px;
+    margin-right: 65px;
 }
 .caption2 {
     display:block;
+    margin-right: 65px;
 }
 .noodles {
     vertical-align: top;
     display: inline-block;
     text-align: center;
     width: auto;
+    padding-top: 3px;
 }
 .jnoodles {
-    width: 20%;
+    width: 27%;
+    margin-right: 100px;
+    padding-top: 3px;
+
 }
 .caption3 {
     display:block;
+    margin-right: 100px;
 }
 
 .bbq {
@@ -99,10 +143,15 @@ nav {
     width: 80%;
 }
 .kbbq {
-    width: 25%;
+    width: 30%;
+    padding-top: 15px;
+    margin-right: 100px;
+    
 }
 .caption4 {
     display: block;
+    margin-right: 100px;
+    padding-top: 2px;
 }
 
 .beverages {
@@ -113,12 +162,16 @@ nav {
 }
 
 .soju {
-    width: 45%;
+    width: 13%;
+    margin-right: 150px;
+    padding-top: 13px;
     
 }
 
 .caption5 {
     display: block;
+    margin-right: 150px;
+    padding-top: 1px;
 }
 
 .dessert {
@@ -129,11 +182,14 @@ nav {
 }
 
 .fishbread {
-    width: 50%;
+    width: 40%;
+    padding-top: 11px;
+    margin-right: 100px;
 }
 
 .caption6 {
     display:block;
+    margin-right: 90px;
 }
 
 
@@ -142,9 +198,125 @@ nav {
     justify-content: flex-end;
 }
 
+.block {
+    padding-top: 10px;
+    margin-right: 20px;
+    font-size: 40px;
+    color: #735751
+}
+
 .caption7 {
     font-size: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #735751
 
 }
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Title {
+    padding-top: 60px;
+    width: 100%;
+
+}
+u {
+    font-size: 40px;
+    color: #735751;
+}
+
+.bigImages {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.noodles1 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+
+.jjajjang {
+    width: 60%;
+    padding-top: 29px;
+    padding-right: 40px;
+}
+
+.caption8 {
+    display: block;
+    padding-right: 40px;
+    color: #735751
+}
+
+.caption9 {
+    display: block;
+    padding-right: 40px;
+    color: #735751
+}
+
+.noodles2 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+
+}
+
+.jjamppong {
+    width: 62%;
+    padding-top: 27px;
+    padding-right: 100px;
+}
+
+.caption10 {
+    display: block;
+    padding-right: 90px;
+    color: #735751
+}
+.caption11 {
+    display: block;
+    padding-right: 90px;
+    color: #735751
+}
+
+.noodles3 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+
+.jjapchae {
+    width: 66%;
+    padding-top: 30px;
+    padding-right: 90px;
+}
+
+.caption12 {
+    display: block;
+    padding-right: 90px;
+    color: #735751
+}
+
+.caption13 {
+    display: block;
+    padding-right: 90px;
+    color: #735751
+}
+
+
+
+
+
+
+
+
 
 
