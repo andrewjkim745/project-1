@@ -1,60 +1,90 @@
-.content {
-
+* {
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    
 }
 
+body{
+    width:100%;
+}
 .header-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    
     background-color:#e7d7c1;
+    width:100%;
 }
-
+.text {
+    font-size: 16px;
+}
 a {
     color: #735751
 }
 .Menu {
-    font-size: 30px;
+    /* font-size: 5px; */
 }
 .Menu:hover {
     color: #8c1c13
 }
 .Locator {
-    font-size: 30px;
-}
-.Menu:hover {
-    color:  
+    /* font-size: 5px; */
 }
 
 .Delivery {
-    font-size: 30px;
+    /* font-size: 5px; */
 }
 
 .Offers {
-    font-size: 30px;
+    /* font-size: 5px; */
 }
 .NewOptions {
-    font-size: 30px;
+    /* font-size: 5px; */
 }
 
 .logo {
-    width: 6%;
+    width: 8%;
 
 }
 .navbar{
     display:flex;
-    width: auto;
+    justify-content: space-between;
+    /* width: auto; */
 }
 .wooden-background{
-    background: url("https://i.imgur.com/NSA3MFr.jpg");
+    background-image: url("https://i.imgur.com/NSA3MFr.jpg");
     display:flex;
-    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-between; */
+      background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    /* width: 8%; */
+}
+.wooden-background div{
+    height:auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column; /* NEW */
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+    /* display:none; */
 }
 
+.wooden-background img{
+    /* width:15%; */
+}
+.wooden-background span{
+    font-size:.1em; 
+}
 nav {
     display:flex;
     align-items: center;
     justify-content:space-around;
     width: 100%;
     font-family: 'Tinos', serif;
+    height: 65px;
 }
 
 .Bell {
@@ -67,17 +97,26 @@ nav {
 .Magnifier{
     width: 4%;
 }
+.Magnifier:hover {
+    width: 5%;
+}
 .Facebook {
     width: 4%;
+}
+.Facebook:hover {
+    width: 5%;
 }
 
 .Instagram {
     width: 4%;
 }
-.Alerts {
-    font-size: 30px;
+.Instagram:hover {
+    width: 5%;
 }
-
+.Alerts {
+    /* font-size: 5px; */
+}
+ 
 
 
 .chicken {
@@ -91,66 +130,80 @@ nav {
 }
 
 .bowlchicken {
-    width: 23%;
-    margin-left: 20px;
-    padding-top: 5px;
+    width: 20%;
+    /* margin-left: 20px;
+    padding-top: 5px; */
     
 
 }
+.bowlchicken:hover {
+    width: 25%;
+}
 .caption1 {
     display: block;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
+
 .rolls {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 90%;
+    /* width: 90%; */
     
 }
 
 .brolls {
-    width: 33%;
-    padding-top: 4px;
-    margin-right: 65px;
+    width: 20%;
+    /* padding-top: 11px;
+    margin-right: 65px; */
+}
+.brolls:hover {
+    width: 25%;
 }
 .caption2 {
     display:block;
-    margin-right: 65px;
+    /* margin-right: 65px; */
 }
 .noodles {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: auto;
-    padding-top: 3px;
+    /* width: auto; */
+    /* padding-top: 3px; */
 }
 .jnoodles {
-    width: 27%;
-    margin-right: 100px;
-    padding-top: 3px;
+    width: 15%;
+    /* margin-right: 100px;
+    padding-top: 6px; */
 
+}
+.jnoodles:hover {
+    width: 20%;
 }
 .caption3 {
     display:block;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
 .bbq {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 80%;
+    /* width: 80%; */
 }
 .kbbq {
-    width: 30%;
-    padding-top: 15px;
-    margin-right: 100px;
+    width: 22%;
+    /* padding-top: 15px;
+    margin-right: 100px; */
     
+}
+
+.kbbq:hover {
+    width: 27%;
 }
 .caption4 {
     display: block;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     padding-top: 2px;
 }
 
@@ -162,35 +215,43 @@ nav {
 }
 
 .soju {
-    width: 13%;
-    margin-right: 150px;
-    padding-top: 13px;
+    /* margin-right: 150px; */
+    width: 18%;
+    
+
     
 }
 
+.soju:hover {
+    width: 22%;
+}
+
 .caption5 {
-    display: block;
-    margin-right: 150px;
+    /* display: block; */
+    /* margin-right: 150px; */
     padding-top: 1px;
 }
 
 .dessert {
     vertical-align: top;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
-    width: auto;
+    /* width: auto; */
 }
 
 .fishbread {
-    width: 40%;
-    padding-top: 11px;
-    margin-right: 100px;
+    /* padding-top: 11px;
+    margin-right: 100px; */
+    width: 20%;
+}
+.fishbread:hover {
+    width: 25%;
 }
 
 .caption6 {
     display:block;
-    margin-right: 90px;
-}
+    /* margin-right: 90px; */
+} */
 
 
 .Nutrition {
@@ -200,18 +261,23 @@ nav {
 
 .block {
     padding-top: 10px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     font-size: 40px;
     color: #735751
 }
 
 .caption7 {
     font-size: 20px;
-    padding-right: 40px;
+    /* padding-right: 40px; */
     padding-top: 20px;
     padding-bottom: 20px;
     color: #735751
+    
 
+}
+
+.caption7:hover {
+    color: #8c1c13
 }
 .footer-container {
     display: flex;
@@ -221,8 +287,10 @@ nav {
 }
 
 .Title {
-    padding-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     width: 100%;
+    font-family: 'Tinos', serif;
 
 }
 u {
@@ -233,88 +301,169 @@ u {
 .bigImages {
     display: flex;
     justify-content: space-between;
-
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .noodles1 {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: auto;
+    width: 300px;
 }
 
 .jjajjang {
-    width: 60%;
-    padding-top: 29px;
-    padding-right: 40px;
+    width: 200px;
+    /* padding-top: 20px; */
+    justify-content: center;
+    border-radius: 90%;
+    animation: shadow-pulse 2s infinite;
+}
+
+.jjajjang:hover {
+    width: 240px;
 }
 
 .caption8 {
     display: block;
-    padding-right: 40px;
-    color: #735751
+    /* padding-right: 40px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
 }
 
 .caption9 {
     display: block;
-    padding-right: 40px;
-    color: #735751
+    /* padding-right: 40px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
 }
 
 .noodles2 {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: auto;
+    width: 300px;
 
 }
 
 .jjamppong {
-    width: 62%;
-    padding-top: 27px;
-    padding-right: 100px;
+    width: 200px;
+    /* padding-top: 27px; */
+    justify-content: center;
+    animation: shadow-pulse 2s infinite;
+    border-radius: 50%;
+}
+.jjamppong:hover {
+    width: 75%;
 }
 
 .caption10 {
     display: block;
-    padding-right: 90px;
-    color: #735751
+    /* padding-right: 90px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
 }
 .caption11 {
     display: block;
-    padding-right: 90px;
-    color: #735751
+    /* padding-right: 90px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
 }
 
 .noodles3 {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: auto;
+    width: 300px;
 }
 
 .jjapchae {
-    width: 66%;
-    padding-top: 30px;
-    padding-right: 90px;
+    width: 200px;
+    justify-content: center;
+    border-radius: 50%;
+    animation: shadow-pulse 2s infinite;
+}
+.jjapchae:hover {
+    width: 230px;
 }
 
 .caption12 {
     display: block;
-    padding-right: 90px;
-    color: #735751
+    /* padding-right: 90px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
 }
 
 .caption13 {
     display: block;
-    padding-right: 90px;
-    color: #735751
+    /* padding-right: 90px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+.noodles4 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+.nnaengmyeon {
+    width: 200px;
+    justify-content: center;
+    border-radius: 100%;
+    animation: shadow-pulse 2s infinite;
+    
+    
 }
 
+.nnaengmyeon:hover {
+    width: 230px;
+}
+.caption14 {
+    display: block;
+    justify-content: center;
+    color: #735751;
+    font-family: 'Tinos', serif;
+}
+.caption15 {
+    display: block;
+    justify-content: center;
+    color: #735751;
+    font-family: 'Tinos', serif;
+}
+
+@keyframes shadow-pulse {
+    0% {
+      box-shadow: 0 0 0 0px rgba(255,255,255,0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 5px rgba(0,0,0,0.6);
+    }
+   }
 
 
 
 
+
+
+
+@media only screen and (max-width: 500px) {
+    .dessert img{
+    }
+    .jjajjang {
+        /* width: 500px; */
+    }
+    .logo {
+        width: 15%;
+    }
+
+
+}
 
 
 
