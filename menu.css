@@ -1,0 +1,404 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+body{
+    width:100%;
+}
+.header-container {
+    display: flex;
+    flex-direction: column; 
+    
+    background-color:#e7d7c1;
+    width:100%;
+}
+.text {
+    font-size: 16px;
+}
+a {
+    color: #735751
+}
+.Menu {
+    /* font-size: 5px; */
+}
+.Menu:hover {
+    color: #8c1c13
+}
+
+
+.logo {
+    width: 10%;
+
+}
+.navBar{
+    display:flex;
+    justify-content: space-between;
+}
+.wooden-background{
+    background-image: url("https://i.imgur.com/NSA3MFr.jpg");
+    display:flex;
+    align-items: center;
+      background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+.wooden-background div{
+    height:auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+}
+
+.wooden-background img{
+    opacity: 1;
+    background: cover;
+    width: 15%;
+    height: 10%;
+    transform: scale(1.10);
+    transition: transform 0.5s, opacity 0.5s;
+    padding-top: 5px;
+}
+.wooden-background img:hover {
+    transform: scale(1.25);
+    opacity: 1;
+}
+.wooden-background span{ 
+    font-size: .9em;
+    font-weight: bold;
+}
+nav {
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    font-family: 'Tinos', serif;
+    height: 65px;
+}
+
+.Bell {
+    width: 4%;
+}
+.Bell:hover {
+    width: 5%;
+}
+
+.Magnifier{
+    width: 4%;
+}
+.Magnifier:hover {
+    width: 5%;
+}
+.Facebook {
+    width: 4%;
+}
+.Facebook:hover {
+    width: 5%;
+}
+
+.Instagram {
+    width: 4%;
+}
+.Instagram:hover {
+    width: 5%;
+}
+
+ 
+
+
+.chicken {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    
+    
+
+}
+
+.bowlChicken {
+    width: 20%;
+
+    
+
+}
+
+.caption1 {
+    display: block;
+}
+
+.rolls {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.bRolls {
+    width: 20%;
+
+}
+
+
+.caption2 {
+    display:block;
+    
+}
+.noodles {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
+}
+.blackJ {
+    width: 15%;
+
+
+}
+
+.caption3 {
+    display:block;
+}
+
+.bbq {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
+}
+.kbbq {
+    width: 22%;
+    
+}
+
+.caption4 {
+    display: block;
+    padding-top: 2px;
+}
+
+.beverages {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+
+.soju {
+    width: 18%;
+    
+
+    
+}
+
+
+
+.caption5 {
+    padding-top: 1px;
+}
+
+.dessert {
+    vertical-align: top;
+
+    text-align: center;
+}
+
+.fishBread {
+
+    width: 20%;
+}
+
+
+.caption6 {
+    display:block;
+} 
+
+
+.Nutrition {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.block {
+    padding-top: 10px;
+    font-size: 40px;
+    color: #735751
+}
+
+.caption7 {
+    font-size: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #735751
+    
+
+}
+
+.caption7:hover {
+    color: #8c1c13
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    font-family: 'Tinos', serif;
+    
+
+}
+u {
+    font-size: 40px;
+    color: #735751;
+}
+
+.bigImages {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.noodles1 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+}
+
+.kNoodles {
+    width: 200px;
+    justify-content: center;
+    border-radius: 100%;
+    animation: shadow-pulse 2s infinite;
+}
+
+.caption8 {
+    display: block;
+    
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+
+.caption9 {
+    display: block;
+
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+
+.noodles2 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+
+}
+
+.jjamppong {
+
+    justify-content: center;
+    animation: shadow-pulse 2s infinite;
+    border-radius: 50%; */
+}
+
+
+.caption10 {
+    display: block;
+    /* padding-right: 90px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+.caption11 {
+    display: block;
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+
+.noodles3 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+}
+
+
+.caption12 {
+    display: block;
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+
+.caption13 {
+    display: block;
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+.noodles4 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+}
+
+
+.caption14 {
+    display: block;
+    justify-content: center;
+    color: #735751;
+    font-family: 'Tinos', serif;
+}
+.caption15 {
+    display: block;
+    justify-content: center;
+    color: #735751;
+    font-family: 'Tinos', serif;
+}
+
+@keyframes shadow-pulse {
+    0% {
+      box-shadow: 0 0 0 0px rgba(255,255,255,0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 5px rgba(0,0,0,0.6);
+    }
+   }
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        width: 15%;
+    }
+
+
+}
+
+
+
+
+
