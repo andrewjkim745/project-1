@@ -18,4 +18,4 @@
 1. My understanding of flexbox is much stronger and I am sure that next time I create a similar website it will take half as long. 
 
 
-![](https://giphy.com/gifs/gfr4zBDGWIqLlbShul.gif)
+![](https://media.giphy.com/media/gfr4zBDGWIqLlbShul/giphy.gif)
