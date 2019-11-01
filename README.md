@@ -5,7 +5,7 @@
 
 
 
-![](ezgif.com-video-to-gif)
+![](https://media.giphy.com/media/U78QMghyDQ1c6H6UbZ/giphy.gif)
 
 
 # What is this website?
