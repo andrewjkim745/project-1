@@ -46,7 +46,7 @@ a {
     width: 8%;
 
 }
-.navbar{
+.navBar{
     display:flex;
     justify-content: space-between;
     /* width: auto; */
@@ -140,14 +140,14 @@ nav {
 
 }
 
-.bowlchicken {
+.bowlChicken {
     width: 20%;
     /* margin-left: 20px;
     padding-top: 5px; */
     
 
 }
-.bowlchicken:hover {
+.bowlChicken:hover {
     /* width: 25%; */
 }
 .caption1 {
@@ -163,12 +163,12 @@ nav {
     
 }
 
-.brolls {
+.bRolls {
     width: 20%;
     /* padding-top: 11px;
     margin-right: 65px; */
 }
-.brolls:hover {
+.bRolls:hover {
     /* width: 30%; */
 }
 .caption2 {
@@ -250,12 +250,12 @@ nav {
     /* width: auto; */
 }
 
-.fishbread {
+.fishBread {
     /* padding-top: 11px;
     margin-right: 100px; */
     width: 20%;
 }
-.fishbread:hover {
+.fishBread:hover {
     /* width: 25%; */
 }
 
@@ -487,8 +487,3 @@ u {
 
 
 }
-
-
-
-
-
