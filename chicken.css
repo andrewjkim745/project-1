@@ -1,0 +1,494 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+body{
+    width:100%;
+}
+.header-container {
+    display: flex;
+    flex-direction: column; 
+    
+    background-color:#e7d7c1;
+    width:100%;
+}
+.text {
+    font-size: 16px;
+}
+a {
+    color: #735751
+}
+.Menu {
+    /* font-size: 5px; */
+}
+.Menu:hover {
+    color: #8c1c13
+}
+.Locator {
+    /* font-size: 5px; */
+}
+
+.Delivery {
+    /* font-size: 5px; */
+}
+
+.Offers {
+    /* font-size: 5px; */
+}
+.NewOptions {
+    /* font-size: 5px; */
+}
+
+.logo {
+    width: 8%;
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    /* width: auto; */
+}
+.wooden-background{
+    background-image: url("https://i.imgur.com/NSA3MFr.jpg");
+    display:flex;
+    align-items: center;
+    /* justify-content: space-between; */
+      background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    /* width: 8%; */
+}
+.wooden-background div{
+    height:auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column; /* NEW */
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+    /* display:none; */
+}
+
+.wooden-background img{
+    opacity: 1;
+    background: cover;
+    width: 15%;
+    height: 10%;
+    transform: scale(1.10);
+    transition: transform 0.5s, opacity 0.5s;
+    padding-top: 5px;
+}
+.wooden-background img:hover {
+    transform: scale(1.25);
+    opacity: 1;
+}
+.wooden-background span{ 
+    font-size: .9em;
+    font-weight: bold;
+}
+nav {
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    font-family: 'Tinos', serif;
+    height: 65px;
+}
+
+.Bell {
+    width: 4%;
+}
+.Bell:hover {
+    width: 5%;
+}
+
+.Magnifier{
+    width: 4%;
+}
+.Magnifier:hover {
+    width: 5%;
+}
+.Facebook {
+    width: 4%;
+}
+.Facebook:hover {
+    width: 5%;
+}
+
+.Instagram {
+    width: 4%;
+}
+.Instagram:hover {
+    width: 5%;
+}
+.Alerts {
+    /* font-size: 5px; */
+}
+ 
+
+
+.chicken {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    
+    
+
+}
+
+.bowlchicken {
+    width: 20%;
+    /* margin-left: 20px;
+    padding-top: 5px; */
+    
+
+}
+.bowlchicken:hover {
+    /* width: 25%; */
+}
+.caption1 {
+    display: block;
+    /* margin-left: 20px; */
+}
+
+.rolls {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    /* width: 90%; */
+    
+}
+
+.brolls {
+    width: 20%;
+    /* padding-top: 11px;
+    margin-right: 65px; */
+}
+.brolls:hover {
+    /* width: 30%; */
+}
+.caption2 {
+    display:block;
+    /* margin-right: 65px; */
+}
+.noodles {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    /* width: auto; */
+    /* padding-top: 3px; */
+}
+.blackJ {
+    width: 15%;
+    /* margin-right: 100px;
+    padding-top: 6px; */
+
+}
+.jnoodles:hover {
+    /* width: 25%; */
+}
+.caption3 {
+    display:block;
+    /* margin-right: 100px; */
+}
+
+.bbq {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    /* width: 80%; */
+}
+.kbbq {
+    width: 22%;
+    /* padding-top: 15px;
+    margin-right: 100px; */
+    
+}
+
+.kbbq:hover {
+    /* width: 33%; */
+}
+.caption4 {
+    display: block;
+    /* margin-right: 100px; */
+    padding-top: 2px;
+}
+
+.beverages {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+
+.soju {
+    /* margin-right: 150px; */
+    width: 18%;
+    
+
+    
+}
+
+.soju:hover {
+    /* width: 25%; */
+}
+
+.caption5 {
+    /* display: block; */
+    /* margin-right: 150px; */
+    padding-top: 1px;
+}
+
+.dessert {
+    vertical-align: top;
+    /* display: inline-block; */
+    text-align: center;
+    /* width: auto; */
+}
+
+.fishbread {
+    /* padding-top: 11px;
+    margin-right: 100px; */
+    width: 20%;
+}
+.fishbread:hover {
+    /* width: 25%; */
+}
+
+.caption6 {
+    display:block;
+    /* margin-right: 90px; */
+} */
+
+
+.Nutrition {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.block {
+    padding-top: 10px;
+    /* margin-right: 20px; */
+    font-size: 40px;
+    color: #735751
+}
+
+.caption7 {
+    font-size: 20px;
+    /* padding-right: 40px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #735751
+    
+
+}
+
+.caption7:hover {
+    color: #8c1c13
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    font-family: 'Tinos', serif;
+    
+
+}
+u {
+    font-size: 40px;
+    color: #735751;
+}
+
+.bigImages {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.noodles1 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+}
+
+.kNoodles {
+    width: 200px;
+    justify-content: center;
+    border-radius: 100%;
+    animation: shadow-pulse 2s infinite;
+}
+
+.jjajjang {
+    /* width: 200px;
+    /* padding-top: 2px; */
+    /* justify-content: center;
+    border-radius: 90%;
+    animation: shadow-pulse 2s infinite; */
+}
+
+.jjajjang:hover {
+    /* width: 240px; */
+}
+
+.caption8 {
+    display: block;
+    /* padding-right: 40px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+
+.caption9 {
+    display: block;
+    /* padding-right: 40px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+
+.noodles2 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+
+}
+
+.jjamppong {
+    /* width: 200px;
+    /* padding-top: 27px; */
+    justify-content: center;
+    animation: shadow-pulse 2s infinite;
+    border-radius: 50%; */
+}
+.jjamppong:hover {
+    /* width: 75%; */
+}
+
+.caption10 {
+    display: block;
+    /* padding-right: 90px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+.caption11 {
+    display: block;
+    /* padding-right: 90px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+
+.noodles3 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+}
+
+.jjapchae {
+    /* width: 200px;
+    justify-content: center;
+    border-radius: 50%;
+    animation: shadow-pulse 2s infinite; */
+}
+.jjapchae:hover {
+    /* width: 230px; */
+}
+
+.caption12 {
+    display: block;
+    /* padding-right: 90px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+
+.caption13 {
+    display: block;
+    /* padding-right: 90px; */
+    color: #735751;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+.noodles4 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+}
+.nnaengmyeon {
+    /* width: 200px;
+    justify-content: center;
+    border-radius: 100%;
+    animation: shadow-pulse 2s infinite; */
+    
+    
+}
+
+.nnaengmyeon:hover {
+    /* width: 230px; */
+}
+.caption14 {
+    display: block;
+    justify-content: center;
+    color: #735751;
+    font-family: 'Tinos', serif;
+}
+.caption15 {
+    display: block;
+    justify-content: center;
+    color: #735751;
+    font-family: 'Tinos', serif;
+}
+
+@keyframes shadow-pulse {
+    0% {
+      box-shadow: 0 0 0 0px rgba(255,255,255,0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 5px rgba(0,0,0,0.6);
+    }
+   }
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .dessert img{
+    }
+    .jjajjang {
+        /* width: 500px; */
+    }
+    .logo {
+        width: 15%;
+    }
+
+
+}
+
+
+
+
+
