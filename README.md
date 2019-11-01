@@ -5,7 +5,7 @@
 
 
 
-![](ezgif.com-video-to-gif.mov)
+![](ezgif.com-video-to-gif)
 
 
 # What is this website?
